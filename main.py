@@ -13,7 +13,7 @@ IDX_FLAMMABILITY = 4
 
 
 def read_csv(filename):
-    """CSV 파일을 읽어서 행(row) 단위의 2차원 리스트로 반환한다."""
+  
     try:
         with open(filename, 'r', encoding='utf-8') as f:
             lines = f.readlines()
